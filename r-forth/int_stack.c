@@ -107,6 +107,35 @@ int int_stack_2swap(int_stack_t *stk) {
     return int_stack_push(stk, s3);
 }
 
+int int_stack_2dup(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int s1, s2;
+    int_stack_pop(stk, &s1);
+    int_stack_pop(stk, &s2);
+    int_stack_push(stk, s2);
+    int_stack_push(stk, s1);
+    int_stack_push(stk, s2);
+    return int_stack_push(stk, s1);
+}
+
+int int_stack_2over(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int s1, s2, s3, s4;
+    int_stack_pop(stk, &s1);
+    int_stack_pop(stk, &s2);
+    int_stack_pop(stk, &s3);
+    int_stack_pop(stk, &s4);
+    int_stack_push(stk, s4);
+    int_stack_push(stk, s3);
+    int_stack_push(stk, s2);
+    int_stack_push(stk, s1);
+    int_stack_push(stk, s4);
+    return int_stack_push(stk, s3);
+}
+
+
 
 
 int int_stack_add(int_stack_t *stk) {
@@ -143,6 +172,27 @@ int int_stack_subtract(int_stack_t *stk){
     int_stack_pop(stk, &top_value);
     int_stack_pop(stk, &next_to_top_value);
     return int_stack_push(stk, top_value - next_to_top_value);
+}
+
+int int_stack_mod(int_stack_t *stk){
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    return int_stack_push(stk, top_value % next_to_top_value);
+}
+
+int int_stack_divmod(int_stack_t *stk){
+    if (stk->size < 2)
+        return 0;
+    int s1, s2;
+    int_stack_pop(stk, &s1); 
+    int_stack_pop(stk, &s2);
+    int rem = s2 % s1;
+    int quot = s2 / s1;
+    int_stack_push(stk, rem);
+    return int_stack_push(stk, quot);
 }
 
 void int_stack_print(int_stack_t *stk, FILE *file) {

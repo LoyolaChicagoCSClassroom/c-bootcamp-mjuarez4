@@ -80,20 +80,20 @@ void separate_token(int_stack_t *stk, char *text) {
 
     while ((token = strtok_r(rest, space, &rest))) {
         token_type_t type = get_token_type(token);
+        //printf("Token: %s, Type: %s\n", token, token_type_to_string(type));
         if (type == NUMBER) {
             int_stack_push(stk, atoi(token));
         } else if (type == OPERATOR) {
             int top_value;
-            if (stk->size > 1){
-                 
-                if (strcmp(token, "+") == 0) {
-                    // Assuming int_stack_add pops two values, adds them, and pushes the result
+            if (stk->size > 1){     
+                if (strcmp(token, "+") == 0) {        
                     int_stack_add(stk);
                 } else if (strcmp(token, "-") == 0) {
-                    // Assuming int_stack_subtract pops two values, subtracts them, and pushes the result
                     int_stack_subtract(stk);
                 } else if (strcmp(token, "*") == 0){
                     int_stack_mult(stk);
+                } else if (strcmp(token, "/mod")==0){
+                    int_stack_divmod(stk);
                 } else {
                     int_stack_div(stk);
                 } 
@@ -111,14 +111,26 @@ void separate_token(int_stack_t *stk, char *text) {
                 int_stack_pop(stk, &top_value);
             } else if (strcmp(token, "rot")==0){
                 int_stack_rot(stk);
+            } else if (strcmp(token, "dup")==0){
+                int_stack_dup(stk);
+            } else if (strcmp(token, "swap")==0){
+                int_stack_swap(stk);
             } else if (strcmp(token, "2swap")==0){
                 int_stack_2swap(stk);
+            } else if (strcmp(token, "2dup")==0){
+                int_stack_2dup(stk);
+            } else if (strcmp(token, "2over")==0){
+                int_stack_2over(stk);
+            } else if (strcmp(token, "2drop")==0){
+                int_stack_pop(stk, &top_value);
+                int_stack_pop(stk, &top_value);
+            } else if (strcmp(token, "mod")==0){
+                int_stack_mod(stk);
+            } else {
+                printf("unknown");
             }
         }
     }
 }
 
 
-
-
-//void add(int_stack_t *stk)
