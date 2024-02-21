@@ -19,6 +19,14 @@ token_type_t get_token_type(const char* token){
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
     } else if (isdigit((unsigned char)*token)){
+        const char* p = token + 1; 
+        while (*p) {
+            if (!isdigit((unsigned char)*p)) {
+                
+                return WORD;
+            }
+            p++;
+        }
         return NUMBER;
     } else {
         return WORD;
@@ -75,9 +83,37 @@ void separate_token(int_stack_t *stk, char *text) {
         if (type == NUMBER) {
             int_stack_push(stk, atoi(token));
         } else if (type == OPERATOR) {
-            int_stack_add(stk);
-        } else {
-            printf("WHAT\n");
+            int top_value;
+            if (stk->size > 1){
+                 
+                if (strcmp(token, "+") == 0) {
+                    // Assuming int_stack_add pops two values, adds them, and pushes the result
+                    int_stack_add(stk);
+                } else if (strcmp(token, "-") == 0) {
+                    // Assuming int_stack_subtract pops two values, subtracts them, and pushes the result
+                    int_stack_subtract(stk);
+                } else if (strcmp(token, "*") == 0){
+                    int_stack_mult(stk);
+                } else {
+                    int_stack_div(stk);
+                } 
+            } else {
+                int_stack_pop(stk, &top_value);
+                printf("Stack underflow");
+                
+                //exit(EXIT_FAILURE);
+            } 
+        } else if (type == WORD){
+            int top_value;
+            if (strcmp(token, "over")==0){
+                int_stack_over(stk);
+            } else if (strcmp(token, "drop")==0){
+                int_stack_pop(stk, &top_value);
+            } else if (strcmp(token, "rot")==0){
+                int_stack_rot(stk);
+            } else if (strcmp(token, "2swap")==0){
+                int_stack_2swap(stk);
+            }
         }
     }
 }

@@ -27,6 +27,12 @@ extern int int_stack_add(int_stack_t *stk);
 extern void int_stack_print(int_stack_t *stk, FILE *file);
 extern int int_stack_size(int_stack_t* stk);
 extern int int_stack_capacity(int_stack_t* stk);
+extern int int_stack_subtract(int_stack_t *stk);
+extern int int_stack_mult(int_stack_t *stk);
+extern int int_stack_div(int_stack_t *stk);
+extern int int_stack_over(int_stack_t *stk);
+extern int int_stack_rot(int_stack_t *stk);
+extern int int_stack_2swap(int_stack_t *stk);
 
 #endif // INT_STACK_H
 

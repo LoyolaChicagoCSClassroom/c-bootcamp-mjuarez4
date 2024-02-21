@@ -70,6 +70,44 @@ int int_stack_swap(int_stack_t *stk) {
 }
 
 /* Example of how to create a binary operator that works o top two elements (if present) */
+int int_stack_over(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    int_stack_push(stk, next_to_top_value);
+    int_stack_push(stk, top_value);
+    return int_stack_push(stk, next_to_top_value);
+}
+
+int int_stack_rot(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, val2, val3;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &val2);
+    int_stack_pop(stk, &val3);
+    int_stack_push(stk, val2);
+    int_stack_push(stk, top_value);
+    return int_stack_push(stk, val3);
+}
+
+int int_stack_2swap(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int s1, s2, s3, s4;
+    int_stack_pop(stk, &s1);
+    int_stack_pop(stk, &s2);
+    int_stack_pop(stk, &s3);
+    int_stack_pop(stk, &s4);
+    int_stack_push(stk, s2);
+    int_stack_push(stk, s1);
+    int_stack_push(stk, s4);
+    return int_stack_push(stk, s3);
+}
+
+
 
 int int_stack_add(int_stack_t *stk) {
     if (stk->size < 2)
@@ -78,6 +116,33 @@ int int_stack_add(int_stack_t *stk) {
     int_stack_pop(stk, &top_value);
     int_stack_pop(stk, &next_to_top_value);
     return int_stack_push(stk, top_value + next_to_top_value);
+}
+
+int int_stack_mult(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    return int_stack_push(stk, top_value * next_to_top_value);
+}
+
+int int_stack_div(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    return int_stack_push(stk, next_to_top_value / top_value);
+}
+
+int int_stack_subtract(int_stack_t *stk){
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    return int_stack_push(stk, top_value - next_to_top_value);
 }
 
 void int_stack_print(int_stack_t *stk, FILE *file) {
