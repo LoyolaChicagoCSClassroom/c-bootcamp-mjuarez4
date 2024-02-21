@@ -1,5 +1,5 @@
 hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
@@ -34,4 +34,4 @@ hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/secure/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/secure/_common.h \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.h
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.h

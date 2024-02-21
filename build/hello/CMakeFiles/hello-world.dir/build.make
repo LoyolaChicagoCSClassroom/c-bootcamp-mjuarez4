@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include hello/CMakeFiles/hello-world.dir/depend.make
@@ -70,18 +70,18 @@ include hello/CMakeFiles/hello-world.dir/progress.make
 include hello/CMakeFiles/hello-world.dir/flags.make
 
 hello/CMakeFiles/hello-world.dir/hello.c.o: hello/CMakeFiles/hello-world.dir/flags.make
-hello/CMakeFiles/hello-world.dir/hello.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello/hello.c
+hello/CMakeFiles/hello-world.dir/hello.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello/hello.c
 hello/CMakeFiles/hello-world.dir/hello.c.o: hello/CMakeFiles/hello-world.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hello/CMakeFiles/hello-world.dir/hello.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT hello/CMakeFiles/hello-world.dir/hello.c.o -MF CMakeFiles/hello-world.dir/hello.c.o.d -o CMakeFiles/hello-world.dir/hello.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello/hello.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hello/CMakeFiles/hello-world.dir/hello.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT hello/CMakeFiles/hello-world.dir/hello.c.o -MF CMakeFiles/hello-world.dir/hello.c.o.d -o CMakeFiles/hello-world.dir/hello.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello/hello.c
 
 hello/CMakeFiles/hello-world.dir/hello.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hello-world.dir/hello.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello/hello.c > CMakeFiles/hello-world.dir/hello.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello/hello.c > CMakeFiles/hello-world.dir/hello.c.i
 
 hello/CMakeFiles/hello-world.dir/hello.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hello-world.dir/hello.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello/hello.c -o CMakeFiles/hello-world.dir/hello.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello/hello.c -o CMakeFiles/hello-world.dir/hello.c.s
 
 # Object files for target hello-world
 hello__world_OBJECTS = \
@@ -94,18 +94,18 @@ bin/hello-world: hello/CMakeFiles/hello-world.dir/hello.c.o
 bin/hello-world: hello/CMakeFiles/hello-world.dir/build.make
 bin/hello-world: hello-lib/libhello-lib.a
 bin/hello-world: hello/CMakeFiles/hello-world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/hello-world"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-world.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/hello-world"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-world.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hello/CMakeFiles/hello-world.dir/build: bin/hello-world
 .PHONY : hello/CMakeFiles/hello-world.dir/build
 
 hello/CMakeFiles/hello-world.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello && $(CMAKE_COMMAND) -P CMakeFiles/hello-world.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello && $(CMAKE_COMMAND) -P CMakeFiles/hello-world.dir/cmake_clean.cmake
 .PHONY : hello/CMakeFiles/hello-world.dir/clean
 
 hello/CMakeFiles/hello-world.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello/CMakeFiles/hello-world.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello/CMakeFiles/hello-world.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : hello/CMakeFiles/hello-world.dir/depend
 

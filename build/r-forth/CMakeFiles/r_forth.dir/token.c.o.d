@@ -1,5 +1,5 @@
 r-forth/CMakeFiles/r_forth.dir/token.c.o: \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
@@ -74,7 +74,9 @@ r-forth/CMakeFiles/r_forth.dir/token.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.h \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.h \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/queue.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/runetype.h \

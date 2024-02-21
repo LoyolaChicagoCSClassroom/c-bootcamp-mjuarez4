@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/r-forth.c" "r-forth/CMakeFiles/r_forth.dir/r-forth.c.o" "gcc" "r-forth/CMakeFiles/r_forth.dir/r-forth.c.o.d"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c" "r-forth/CMakeFiles/r_forth.dir/token.c.o" "gcc" "r-forth/CMakeFiles/r_forth.dir/token.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.c" "r-forth/CMakeFiles/r_forth.dir/int_stack.c.o" "gcc" "r-forth/CMakeFiles/r_forth.dir/int_stack.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/r-forth.c" "r-forth/CMakeFiles/r_forth.dir/r-forth.c.o" "gcc" "r-forth/CMakeFiles/r_forth.dir/r-forth.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c" "r-forth/CMakeFiles/r_forth.dir/token.c.o" "gcc" "r-forth/CMakeFiles/r_forth.dir/token.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

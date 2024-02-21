@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib
+# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

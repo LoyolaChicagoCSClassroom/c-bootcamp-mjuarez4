@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo//CMakeFiles/progress.marks
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo//CMakeFiles/progress.marks
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/clean
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gtest-demo/CMakeFiles/square_root_app.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/square_root_app.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/square_root_app.dir/rule
 .PHONY : gtest-demo/CMakeFiles/square_root_app.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ square_root_app: gtest-demo/CMakeFiles/square_root_app.dir/rule
 
 # fast build rule for target.
 square_root_app/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/build
 .PHONY : square_root_app/fast
 
 # Convenience name for target.
 gtest-demo/CMakeFiles/countbits_app.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/countbits_app.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/countbits_app.dir/rule
 .PHONY : gtest-demo/CMakeFiles/countbits_app.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ countbits_app: gtest-demo/CMakeFiles/countbits_app.dir/rule
 
 # fast build rule for target.
 countbits_app/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/build
 .PHONY : countbits_app/fast
 
 # Convenience name for target.
 gtest-demo/CMakeFiles/square_root_tests.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/square_root_tests.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/square_root_tests.dir/rule
 .PHONY : gtest-demo/CMakeFiles/square_root_tests.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ square_root_tests: gtest-demo/CMakeFiles/square_root_tests.dir/rule
 
 # fast build rule for target.
 square_root_tests/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/build
 .PHONY : square_root_tests/fast
 
 # Convenience name for target.
 gtest-demo/CMakeFiles/countbits_tests.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/countbits_tests.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest-demo/CMakeFiles/countbits_tests.dir/rule
 .PHONY : gtest-demo/CMakeFiles/countbits_tests.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ countbits_tests: gtest-demo/CMakeFiles/countbits_tests.dir/rule
 
 # fast build rule for target.
 countbits_tests/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/build
 .PHONY : countbits_tests/fast
 
 countbits.o: countbits.c.o
@@ -222,8 +222,8 @@ countbits.o: countbits.c.o
 
 # target to build an object file
 countbits.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.o
 .PHONY : countbits.c.o
 
 countbits.i: countbits.c.i
@@ -231,8 +231,8 @@ countbits.i: countbits.c.i
 
 # target to preprocess a source file
 countbits.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.i
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.i
 .PHONY : countbits.c.i
 
 countbits.s: countbits.c.s
@@ -240,8 +240,8 @@ countbits.s: countbits.c.s
 
 # target to generate assembly for a file
 countbits.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.s
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits.c.s
 .PHONY : countbits.c.s
 
 countbits_app.o: countbits_app.c.o
@@ -249,7 +249,7 @@ countbits_app.o: countbits_app.c.o
 
 # target to build an object file
 countbits_app.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o
 .PHONY : countbits_app.c.o
 
 countbits_app.i: countbits_app.c.i
@@ -257,7 +257,7 @@ countbits_app.i: countbits_app.c.i
 
 # target to preprocess a source file
 countbits_app.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.i
 .PHONY : countbits_app.c.i
 
 countbits_app.s: countbits_app.c.s
@@ -265,7 +265,7 @@ countbits_app.s: countbits_app.c.s
 
 # target to generate assembly for a file
 countbits_app.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.s
 .PHONY : countbits_app.c.s
 
 countbits_tests.o: countbits_tests.cc.o
@@ -273,7 +273,7 @@ countbits_tests.o: countbits_tests.cc.o
 
 # target to build an object file
 countbits_tests.cc.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.o
 .PHONY : countbits_tests.cc.o
 
 countbits_tests.i: countbits_tests.cc.i
@@ -281,7 +281,7 @@ countbits_tests.i: countbits_tests.cc.i
 
 # target to preprocess a source file
 countbits_tests.cc.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.i
 .PHONY : countbits_tests.cc.i
 
 countbits_tests.s: countbits_tests.cc.s
@@ -289,7 +289,7 @@ countbits_tests.s: countbits_tests.cc.s
 
 # target to generate assembly for a file
 countbits_tests.cc.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/countbits_tests.cc.s
 .PHONY : countbits_tests.cc.s
 
 square_root.o: square_root.c.o
@@ -297,8 +297,8 @@ square_root.o: square_root.c.o
 
 # target to build an object file
 square_root.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.o
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o
 .PHONY : square_root.c.o
 
 square_root.i: square_root.c.i
@@ -306,8 +306,8 @@ square_root.i: square_root.c.i
 
 # target to preprocess a source file
 square_root.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.i
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.i
 .PHONY : square_root.c.i
 
 square_root.s: square_root.c.s
@@ -315,8 +315,8 @@ square_root.s: square_root.c.s
 
 # target to generate assembly for a file
 square_root.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.s
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.s
 .PHONY : square_root.c.s
 
 square_root_app.o: square_root_app.c.o
@@ -324,7 +324,7 @@ square_root_app.o: square_root_app.c.o
 
 # target to build an object file
 square_root_app.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.o
 .PHONY : square_root_app.c.o
 
 square_root_app.i: square_root_app.c.i
@@ -332,7 +332,7 @@ square_root_app.i: square_root_app.c.i
 
 # target to preprocess a source file
 square_root_app.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.i
 .PHONY : square_root_app.c.i
 
 square_root_app.s: square_root_app.c.s
@@ -340,7 +340,7 @@ square_root_app.s: square_root_app.c.s
 
 # target to generate assembly for a file
 square_root_app.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/square_root_app.c.s
 .PHONY : square_root_app.c.s
 
 square_root_tests.o: square_root_tests.cc.o
@@ -348,7 +348,7 @@ square_root_tests.o: square_root_tests.cc.o
 
 # target to build an object file
 square_root_tests.cc.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o
 .PHONY : square_root_tests.cc.o
 
 square_root_tests.i: square_root_tests.cc.i
@@ -356,7 +356,7 @@ square_root_tests.i: square_root_tests.cc.i
 
 # target to preprocess a source file
 square_root_tests.cc.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.i
 .PHONY : square_root_tests.cc.i
 
 square_root_tests.s: square_root_tests.cc.s
@@ -364,7 +364,7 @@ square_root_tests.s: square_root_tests.cc.s
 
 # target to generate assembly for a file
 square_root_tests.cc.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.s
 .PHONY : square_root_tests.cc.s
 
 # Help Target
@@ -412,6 +412,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

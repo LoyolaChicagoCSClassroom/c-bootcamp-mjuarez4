@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c" "luke/CMakeFiles/Luke_demo.dir/token.c.o" "gcc" "luke/CMakeFiles/Luke_demo.dir/token.c.o.d"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token_demo.c" "luke/CMakeFiles/Luke_demo.dir/token_demo.c.o" "gcc" "luke/CMakeFiles/Luke_demo.dir/token_demo.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c" "luke/CMakeFiles/Luke_demo.dir/token.c.o" "gcc" "luke/CMakeFiles/Luke_demo.dir/token.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token_demo.c" "luke/CMakeFiles/Luke_demo.dir/token_demo.c.o" "gcc" "luke/CMakeFiles/Luke_demo.dir/token_demo.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

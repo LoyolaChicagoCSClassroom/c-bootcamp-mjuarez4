@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/r_forth"
   "../bin/r_forth.pdb"
+  "CMakeFiles/r_forth.dir/int_stack.c.o"
+  "CMakeFiles/r_forth.dir/int_stack.c.o.d"
   "CMakeFiles/r_forth.dir/r-forth.c.o"
   "CMakeFiles/r_forth.dir/r-forth.c.o.d"
   "CMakeFiles/r_forth.dir/token.c.o"

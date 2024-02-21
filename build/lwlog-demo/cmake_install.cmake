@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo
+# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

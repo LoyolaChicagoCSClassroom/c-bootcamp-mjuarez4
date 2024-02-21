@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth//CMakeFiles/progress.marks
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth//CMakeFiles/progress.marks
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/clean
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 r-forth/CMakeFiles/r_forth.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/CMakeFiles/r_forth.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/CMakeFiles/r_forth.dir/rule
 .PHONY : r-forth/CMakeFiles/r_forth.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,39 @@ r_forth: r-forth/CMakeFiles/r_forth.dir/rule
 
 # fast build rule for target.
 r_forth/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/build
 .PHONY : r_forth/fast
+
+int_stack.o: int_stack.c.o
+.PHONY : int_stack.o
+
+# target to build an object file
+int_stack.c.o:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.o
+.PHONY : int_stack.c.o
+
+int_stack.i: int_stack.c.i
+.PHONY : int_stack.i
+
+# target to preprocess a source file
+int_stack.c.i:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.i
+.PHONY : int_stack.c.i
+
+int_stack.s: int_stack.c.s
+.PHONY : int_stack.s
+
+# target to generate assembly for a file
+int_stack.c.s:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.s
+.PHONY : int_stack.c.s
 
 r-forth.o: r-forth.c.o
 .PHONY : r-forth.o
 
 # target to build an object file
 r-forth.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.o
 .PHONY : r-forth.c.o
 
 r-forth.i: r-forth.c.i
@@ -188,7 +212,7 @@ r-forth.i: r-forth.c.i
 
 # target to preprocess a source file
 r-forth.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.i
 .PHONY : r-forth.c.i
 
 r-forth.s: r-forth.c.s
@@ -196,7 +220,7 @@ r-forth.s: r-forth.c.s
 
 # target to generate assembly for a file
 r-forth.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/r-forth.c.s
 .PHONY : r-forth.c.s
 
 token.o: token.c.o
@@ -204,7 +228,7 @@ token.o: token.c.o
 
 # target to build an object file
 token.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.o
 .PHONY : token.c.o
 
 token.i: token.c.i
@@ -212,7 +236,7 @@ token.i: token.c.i
 
 # target to preprocess a source file
 token.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.i
 .PHONY : token.c.i
 
 token.s: token.c.s
@@ -220,7 +244,7 @@ token.s: token.c.s
 
 # target to generate assembly for a file
 token.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/token.c.s
 .PHONY : token.c.s
 
 # Help Target
@@ -236,6 +260,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... r_forth"
+	@echo "... int_stack.o"
+	@echo "... int_stack.i"
+	@echo "... int_stack.s"
 	@echo "... r-forth.o"
 	@echo "... r-forth.i"
 	@echo "... r-forth.s"
@@ -253,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

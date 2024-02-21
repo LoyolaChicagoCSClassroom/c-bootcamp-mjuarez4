@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include WarmUp_8/CMakeFiles/WarmUp_8.dir/depend.make
@@ -70,18 +70,18 @@ include WarmUp_8/CMakeFiles/WarmUp_8.dir/progress.make
 include WarmUp_8/CMakeFiles/WarmUp_8.dir/flags.make
 
 WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o: WarmUp_8/CMakeFiles/WarmUp_8.dir/flags.make
-WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_8/WarmUp_8.c
+WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_8/WarmUp_8.c
 WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o: WarmUp_8/CMakeFiles/WarmUp_8.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o -MF CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o.d -o CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_8/WarmUp_8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o -MF CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o.d -o CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_8/WarmUp_8.c
 
 WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/WarmUp_8.dir/WarmUp_8.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_8/WarmUp_8.c > CMakeFiles/WarmUp_8.dir/WarmUp_8.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_8/WarmUp_8.c > CMakeFiles/WarmUp_8.dir/WarmUp_8.c.i
 
 WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/WarmUp_8.dir/WarmUp_8.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_8/WarmUp_8.c -o CMakeFiles/WarmUp_8.dir/WarmUp_8.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_8/WarmUp_8.c -o CMakeFiles/WarmUp_8.dir/WarmUp_8.c.s
 
 # Object files for target WarmUp_8
 WarmUp_8_OBJECTS = \
@@ -93,18 +93,18 @@ WarmUp_8_EXTERNAL_OBJECTS =
 bin/WarmUp_8: WarmUp_8/CMakeFiles/WarmUp_8.dir/WarmUp_8.c.o
 bin/WarmUp_8: WarmUp_8/CMakeFiles/WarmUp_8.dir/build.make
 bin/WarmUp_8: WarmUp_8/CMakeFiles/WarmUp_8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/WarmUp_8"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WarmUp_8.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/WarmUp_8"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WarmUp_8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 WarmUp_8/CMakeFiles/WarmUp_8.dir/build: bin/WarmUp_8
 .PHONY : WarmUp_8/CMakeFiles/WarmUp_8.dir/build
 
 WarmUp_8/CMakeFiles/WarmUp_8.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 && $(CMAKE_COMMAND) -P CMakeFiles/WarmUp_8.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 && $(CMAKE_COMMAND) -P CMakeFiles/WarmUp_8.dir/cmake_clean.cmake
 .PHONY : WarmUp_8/CMakeFiles/WarmUp_8.dir/clean
 
 WarmUp_8/CMakeFiles/WarmUp_8.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_8 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8/CMakeFiles/WarmUp_8.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_8 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8/CMakeFiles/WarmUp_8.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : WarmUp_8/CMakeFiles/WarmUp_8.dir/depend
 

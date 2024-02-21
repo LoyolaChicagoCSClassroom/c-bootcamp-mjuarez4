@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include gtest-demo/CMakeFiles/countbits_app.dir/depend.make
@@ -70,32 +70,32 @@ include gtest-demo/CMakeFiles/countbits_app.dir/progress.make
 include gtest-demo/CMakeFiles/countbits_app.dir/flags.make
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o: gtest-demo/CMakeFiles/countbits_app.dir/flags.make
-gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits_app.c
+gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits_app.c
 gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o: gtest-demo/CMakeFiles/countbits_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o -MF CMakeFiles/countbits_app.dir/countbits_app.c.o.d -o CMakeFiles/countbits_app.dir/countbits_app.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits_app.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o -MF CMakeFiles/countbits_app.dir/countbits_app.c.o.d -o CMakeFiles/countbits_app.dir/countbits_app.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits_app.c
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/countbits_app.dir/countbits_app.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits_app.c > CMakeFiles/countbits_app.dir/countbits_app.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits_app.c > CMakeFiles/countbits_app.dir/countbits_app.c.i
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/countbits_app.dir/countbits_app.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits_app.c -o CMakeFiles/countbits_app.dir/countbits_app.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits_app.c -o CMakeFiles/countbits_app.dir/countbits_app.c.s
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o: gtest-demo/CMakeFiles/countbits_app.dir/flags.make
-gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits.c
+gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits.c
 gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o: gtest-demo/CMakeFiles/countbits_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o -MF CMakeFiles/countbits_app.dir/countbits.c.o.d -o CMakeFiles/countbits_app.dir/countbits.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o -MF CMakeFiles/countbits_app.dir/countbits.c.o.d -o CMakeFiles/countbits_app.dir/countbits.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits.c
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/countbits_app.dir/countbits.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits.c > CMakeFiles/countbits_app.dir/countbits.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits.c > CMakeFiles/countbits_app.dir/countbits.c.i
 
 gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/countbits_app.dir/countbits.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits.c -o CMakeFiles/countbits_app.dir/countbits.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits.c -o CMakeFiles/countbits_app.dir/countbits.c.s
 
 # Object files for target countbits_app
 countbits_app_OBJECTS = \
@@ -109,18 +109,18 @@ bin/countbits_app: gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o
 bin/countbits_app: gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o
 bin/countbits_app: gtest-demo/CMakeFiles/countbits_app.dir/build.make
 bin/countbits_app: gtest-demo/CMakeFiles/countbits_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/countbits_app"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/countbits_app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/countbits_app"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/countbits_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest-demo/CMakeFiles/countbits_app.dir/build: bin/countbits_app
 .PHONY : gtest-demo/CMakeFiles/countbits_app.dir/build
 
 gtest-demo/CMakeFiles/countbits_app.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && $(CMAKE_COMMAND) -P CMakeFiles/countbits_app.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && $(CMAKE_COMMAND) -P CMakeFiles/countbits_app.dir/cmake_clean.cmake
 .PHONY : gtest-demo/CMakeFiles/countbits_app.dir/clean
 
 gtest-demo/CMakeFiles/countbits_app.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo/CMakeFiles/countbits_app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo/CMakeFiles/countbits_app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : gtest-demo/CMakeFiles/countbits_app.dir/depend
 

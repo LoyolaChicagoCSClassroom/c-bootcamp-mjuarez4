@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include lwlog-lib/CMakeFiles/lwlog-lib.dir/depend.make
@@ -70,18 +70,18 @@ include lwlog-lib/CMakeFiles/lwlog-lib.dir/progress.make
 include lwlog-lib/CMakeFiles/lwlog-lib.dir/flags.make
 
 lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o: lwlog-lib/CMakeFiles/lwlog-lib.dir/flags.make
-lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog-lib.c
+lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog-lib.c
 lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o: lwlog-lib/CMakeFiles/lwlog-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o -MF CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o.d -o CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog-lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o -MF CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o.d -o CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog-lib.c
 
 lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lwlog-lib.dir/lwlog-lib.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog-lib.c > CMakeFiles/lwlog-lib.dir/lwlog-lib.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog-lib.c > CMakeFiles/lwlog-lib.dir/lwlog-lib.c.i
 
 lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lwlog-lib.dir/lwlog-lib.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog-lib.c -o CMakeFiles/lwlog-lib.dir/lwlog-lib.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog-lib.c -o CMakeFiles/lwlog-lib.dir/lwlog-lib.c.s
 
 # Object files for target lwlog-lib
 lwlog__lib_OBJECTS = \
@@ -93,19 +93,19 @@ lwlog__lib_EXTERNAL_OBJECTS =
 lwlog-lib/liblwlog-lib.a: lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o
 lwlog-lib/liblwlog-lib.a: lwlog-lib/CMakeFiles/lwlog-lib.dir/build.make
 lwlog-lib/liblwlog-lib.a: lwlog-lib/CMakeFiles/lwlog-lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblwlog-lib.a"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-lib.dir/cmake_clean_target.cmake
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwlog-lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblwlog-lib.a"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-lib.dir/cmake_clean_target.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwlog-lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lwlog-lib/CMakeFiles/lwlog-lib.dir/build: lwlog-lib/liblwlog-lib.a
 .PHONY : lwlog-lib/CMakeFiles/lwlog-lib.dir/build
 
 lwlog-lib/CMakeFiles/lwlog-lib.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-lib.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-lib.dir/cmake_clean.cmake
 .PHONY : lwlog-lib/CMakeFiles/lwlog-lib.dir/clean
 
 lwlog-lib/CMakeFiles/lwlog-lib.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib/CMakeFiles/lwlog-lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib/CMakeFiles/lwlog-lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lwlog-lib/CMakeFiles/lwlog-lib.dir/depend
 

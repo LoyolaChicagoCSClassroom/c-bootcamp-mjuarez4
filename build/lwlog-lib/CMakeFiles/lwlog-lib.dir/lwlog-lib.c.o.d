@@ -1,6 +1,6 @@
 lwlog-lib/CMakeFiles/lwlog-lib.dir/lwlog-lib.c.o: \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog-lib.c \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib/lwlog.h \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog-lib.c \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib/lwlog.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \

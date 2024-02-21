@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_2
+# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

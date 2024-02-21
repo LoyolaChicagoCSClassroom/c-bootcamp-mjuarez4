@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-lib
+C_INCLUDES = -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-lib
 
 C_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
 

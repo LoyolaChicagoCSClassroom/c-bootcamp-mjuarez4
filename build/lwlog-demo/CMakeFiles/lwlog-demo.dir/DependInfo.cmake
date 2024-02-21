@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo/lwlog-demo.c" "lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o" "gcc" "lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo/lwlog-demo.c" "lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o" "gcc" "lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

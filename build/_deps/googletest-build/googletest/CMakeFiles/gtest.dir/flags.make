@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-src/googletest/include -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-src/googletest/include -I/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1  
 

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-src"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-build"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-src"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-build"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

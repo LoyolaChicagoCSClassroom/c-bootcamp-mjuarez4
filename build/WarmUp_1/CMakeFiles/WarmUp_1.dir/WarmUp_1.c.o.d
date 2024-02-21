@@ -1,5 +1,5 @@
 WarmUp_1/CMakeFiles/WarmUp_1.dir/WarmUp_1.c.o: \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_1/WarmUp_1.c \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_1/WarmUp_1.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \

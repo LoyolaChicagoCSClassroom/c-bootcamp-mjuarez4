@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include hello-lib/CMakeFiles/hello-lib.dir/depend.make
@@ -70,18 +70,18 @@ include hello-lib/CMakeFiles/hello-lib.dir/progress.make
 include hello-lib/CMakeFiles/hello-lib.dir/flags.make
 
 hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: hello-lib/CMakeFiles/hello-lib.dir/flags.make
-hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c
+hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c
 hello-lib/CMakeFiles/hello-lib.dir/hello.c.o: hello-lib/CMakeFiles/hello-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hello-lib/CMakeFiles/hello-lib.dir/hello.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT hello-lib/CMakeFiles/hello-lib.dir/hello.c.o -MF CMakeFiles/hello-lib.dir/hello.c.o.d -o CMakeFiles/hello-lib.dir/hello.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hello-lib/CMakeFiles/hello-lib.dir/hello.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT hello-lib/CMakeFiles/hello-lib.dir/hello.c.o -MF CMakeFiles/hello-lib.dir/hello.c.o.d -o CMakeFiles/hello-lib.dir/hello.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c
 
 hello-lib/CMakeFiles/hello-lib.dir/hello.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hello-lib.dir/hello.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c > CMakeFiles/hello-lib.dir/hello.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c > CMakeFiles/hello-lib.dir/hello.c.i
 
 hello-lib/CMakeFiles/hello-lib.dir/hello.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hello-lib.dir/hello.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c -o CMakeFiles/hello-lib.dir/hello.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c -o CMakeFiles/hello-lib.dir/hello.c.s
 
 # Object files for target hello-lib
 hello__lib_OBJECTS = \
@@ -93,19 +93,19 @@ hello__lib_EXTERNAL_OBJECTS =
 hello-lib/libhello-lib.a: hello-lib/CMakeFiles/hello-lib.dir/hello.c.o
 hello-lib/libhello-lib.a: hello-lib/CMakeFiles/hello-lib.dir/build.make
 hello-lib/libhello-lib.a: hello-lib/CMakeFiles/hello-lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhello-lib.a"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && $(CMAKE_COMMAND) -P CMakeFiles/hello-lib.dir/cmake_clean_target.cmake
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhello-lib.a"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && $(CMAKE_COMMAND) -P CMakeFiles/hello-lib.dir/cmake_clean_target.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hello-lib/CMakeFiles/hello-lib.dir/build: hello-lib/libhello-lib.a
 .PHONY : hello-lib/CMakeFiles/hello-lib.dir/build
 
 hello-lib/CMakeFiles/hello-lib.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib && $(CMAKE_COMMAND) -P CMakeFiles/hello-lib.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib && $(CMAKE_COMMAND) -P CMakeFiles/hello-lib.dir/cmake_clean.cmake
 .PHONY : hello-lib/CMakeFiles/hello-lib.dir/clean
 
 hello-lib/CMakeFiles/hello-lib.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib/CMakeFiles/hello-lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib/CMakeFiles/hello-lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : hello-lib/CMakeFiles/hello-lib.dir/depend
 

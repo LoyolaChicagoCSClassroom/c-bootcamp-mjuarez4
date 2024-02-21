@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+# Install script for directory: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,24 +39,24 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/_deps/googletest-build/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-lib/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_1/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_2/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_3/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_4/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_5/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_6/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_7/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_8/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_9/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_10/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke/cmake_install.cmake")
-  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/_deps/googletest-build/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-lib/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_1/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_2/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_3/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_4/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_5/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_6/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_7/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_8/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_9/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_10/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/cmake_install.cmake")
+  include("/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/cmake_install.cmake")
 
 endif()
 
@@ -68,5 +68,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

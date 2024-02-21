@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/WarmUp_7//CMakeFiles/progress.marks
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_7//CMakeFiles/progress.marks
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/clean
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 WarmUp_7/CMakeFiles/WarmUp_7.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/CMakeFiles/WarmUp_7.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WarmUp_7/CMakeFiles/WarmUp_7.dir/rule
 .PHONY : WarmUp_7/CMakeFiles/WarmUp_7.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ WarmUp_7: WarmUp_7/CMakeFiles/WarmUp_7.dir/rule
 
 # fast build rule for target.
 WarmUp_7/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/build
 .PHONY : WarmUp_7/fast
 
 WarmUp_7.o: WarmUp_7.c.o
@@ -180,7 +180,7 @@ WarmUp_7.o: WarmUp_7.c.o
 
 # target to build an object file
 WarmUp_7.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.o
 .PHONY : WarmUp_7.c.o
 
 WarmUp_7.i: WarmUp_7.c.i
@@ -188,7 +188,7 @@ WarmUp_7.i: WarmUp_7.c.i
 
 # target to preprocess a source file
 WarmUp_7.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.i
 .PHONY : WarmUp_7.c.i
 
 WarmUp_7.s: WarmUp_7.c.s
@@ -196,7 +196,7 @@ WarmUp_7.s: WarmUp_7.c.s
 
 # target to generate assembly for a file
 WarmUp_7.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/WarmUp_7.c.s
 .PHONY : WarmUp_7.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/hello-lib/hello.c" "hello-lib/CMakeFiles/hello-lib.dir/hello.c.o" "gcc" "hello-lib/CMakeFiles/hello-lib.dir/hello.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/hello-lib/hello.c" "hello-lib/CMakeFiles/hello-lib.dir/hello.c.o" "gcc" "hello-lib/CMakeFiles/hello-lib.dir/hello.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 luke/CMakeFiles/Luke_demo.dir/token.c.o: \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c \
-  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.h \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c \
+  /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/WarmUp_5/WarmUp_5.c" "WarmUp_5/CMakeFiles/WarmUp_5.dir/WarmUp_5.c.o" "gcc" "WarmUp_5/CMakeFiles/WarmUp_5.dir/WarmUp_5.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/WarmUp_5/WarmUp_5.c" "WarmUp_5/CMakeFiles/WarmUp_5.dir/WarmUp_5.c.o" "gcc" "WarmUp_5/CMakeFiles/WarmUp_5.dir/WarmUp_5.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/hello-lib//CMakeFiles/progress.marks
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/hello-lib//CMakeFiles/progress.marks
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/clean
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/preinstall
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hello-lib/CMakeFiles/hello-lib.dir/rule:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/CMakeFiles/hello-lib.dir/rule
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-lib/CMakeFiles/hello-lib.dir/rule
 .PHONY : hello-lib/CMakeFiles/hello-lib.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ hello-lib: hello-lib/CMakeFiles/hello-lib.dir/rule
 
 # fast build rule for target.
 hello-lib/fast:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/build
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/build
 .PHONY : hello-lib/fast
 
 hello.o: hello.c.o
@@ -180,7 +180,7 @@ hello.o: hello.c.o
 
 # target to build an object file
 hello.c.o:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.o
 .PHONY : hello.c.o
 
 hello.i: hello.c.i
@@ -188,7 +188,7 @@ hello.i: hello.c.i
 
 # target to preprocess a source file
 hello.c.i:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.i
 .PHONY : hello.c.i
 
 hello.s: hello.c.s
@@ -196,7 +196,7 @@ hello.s: hello.c.s
 
 # target to generate assembly for a file
 hello.c.s:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/hello.c.s
 .PHONY : hello.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

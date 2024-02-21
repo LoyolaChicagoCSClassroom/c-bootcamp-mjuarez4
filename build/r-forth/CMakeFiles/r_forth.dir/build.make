@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include r-forth/CMakeFiles/r_forth.dir/depend.make
@@ -70,57 +70,73 @@ include r-forth/CMakeFiles/r_forth.dir/progress.make
 include r-forth/CMakeFiles/r_forth.dir/flags.make
 
 r-forth/CMakeFiles/r_forth.dir/r-forth.c.o: r-forth/CMakeFiles/r_forth.dir/flags.make
-r-forth/CMakeFiles/r_forth.dir/r-forth.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/r-forth.c
+r-forth/CMakeFiles/r_forth.dir/r-forth.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/r-forth.c
 r-forth/CMakeFiles/r_forth.dir/r-forth.c.o: r-forth/CMakeFiles/r_forth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object r-forth/CMakeFiles/r_forth.dir/r-forth.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT r-forth/CMakeFiles/r_forth.dir/r-forth.c.o -MF CMakeFiles/r_forth.dir/r-forth.c.o.d -o CMakeFiles/r_forth.dir/r-forth.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/r-forth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object r-forth/CMakeFiles/r_forth.dir/r-forth.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT r-forth/CMakeFiles/r_forth.dir/r-forth.c.o -MF CMakeFiles/r_forth.dir/r-forth.c.o.d -o CMakeFiles/r_forth.dir/r-forth.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/r-forth.c
 
 r-forth/CMakeFiles/r_forth.dir/r-forth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/r_forth.dir/r-forth.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/r-forth.c > CMakeFiles/r_forth.dir/r-forth.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/r-forth.c > CMakeFiles/r_forth.dir/r-forth.c.i
 
 r-forth/CMakeFiles/r_forth.dir/r-forth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/r_forth.dir/r-forth.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/r-forth.c -o CMakeFiles/r_forth.dir/r-forth.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/r-forth.c -o CMakeFiles/r_forth.dir/r-forth.c.s
 
 r-forth/CMakeFiles/r_forth.dir/token.c.o: r-forth/CMakeFiles/r_forth.dir/flags.make
-r-forth/CMakeFiles/r_forth.dir/token.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c
+r-forth/CMakeFiles/r_forth.dir/token.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c
 r-forth/CMakeFiles/r_forth.dir/token.c.o: r-forth/CMakeFiles/r_forth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object r-forth/CMakeFiles/r_forth.dir/token.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT r-forth/CMakeFiles/r_forth.dir/token.c.o -MF CMakeFiles/r_forth.dir/token.c.o.d -o CMakeFiles/r_forth.dir/token.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object r-forth/CMakeFiles/r_forth.dir/token.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT r-forth/CMakeFiles/r_forth.dir/token.c.o -MF CMakeFiles/r_forth.dir/token.c.o.d -o CMakeFiles/r_forth.dir/token.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c
 
 r-forth/CMakeFiles/r_forth.dir/token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/r_forth.dir/token.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c > CMakeFiles/r_forth.dir/token.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c > CMakeFiles/r_forth.dir/token.c.i
 
 r-forth/CMakeFiles/r_forth.dir/token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/r_forth.dir/token.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth/token.c -o CMakeFiles/r_forth.dir/token.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/token.c -o CMakeFiles/r_forth.dir/token.c.s
+
+r-forth/CMakeFiles/r_forth.dir/int_stack.c.o: r-forth/CMakeFiles/r_forth.dir/flags.make
+r-forth/CMakeFiles/r_forth.dir/int_stack.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.c
+r-forth/CMakeFiles/r_forth.dir/int_stack.c.o: r-forth/CMakeFiles/r_forth.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object r-forth/CMakeFiles/r_forth.dir/int_stack.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT r-forth/CMakeFiles/r_forth.dir/int_stack.c.o -MF CMakeFiles/r_forth.dir/int_stack.c.o.d -o CMakeFiles/r_forth.dir/int_stack.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.c
+
+r-forth/CMakeFiles/r_forth.dir/int_stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/r_forth.dir/int_stack.c.i"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.c > CMakeFiles/r_forth.dir/int_stack.c.i
+
+r-forth/CMakeFiles/r_forth.dir/int_stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/r_forth.dir/int_stack.c.s"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth/int_stack.c -o CMakeFiles/r_forth.dir/int_stack.c.s
 
 # Object files for target r_forth
 r_forth_OBJECTS = \
 "CMakeFiles/r_forth.dir/r-forth.c.o" \
-"CMakeFiles/r_forth.dir/token.c.o"
+"CMakeFiles/r_forth.dir/token.c.o" \
+"CMakeFiles/r_forth.dir/int_stack.c.o"
 
 # External object files for target r_forth
 r_forth_EXTERNAL_OBJECTS =
 
 bin/r_forth: r-forth/CMakeFiles/r_forth.dir/r-forth.c.o
 bin/r_forth: r-forth/CMakeFiles/r_forth.dir/token.c.o
+bin/r_forth: r-forth/CMakeFiles/r_forth.dir/int_stack.c.o
 bin/r_forth: r-forth/CMakeFiles/r_forth.dir/build.make
 bin/r_forth: r-forth/CMakeFiles/r_forth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/r_forth"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_forth.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/r_forth"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_forth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 r-forth/CMakeFiles/r_forth.dir/build: bin/r_forth
 .PHONY : r-forth/CMakeFiles/r_forth.dir/build
 
 r-forth/CMakeFiles/r_forth.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth && $(CMAKE_COMMAND) -P CMakeFiles/r_forth.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth && $(CMAKE_COMMAND) -P CMakeFiles/r_forth.dir/cmake_clean.cmake
 .PHONY : r-forth/CMakeFiles/r_forth.dir/clean
 
 r-forth/CMakeFiles/r_forth.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/r-forth /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/r-forth/CMakeFiles/r_forth.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/r-forth /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/r_forth.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : r-forth/CMakeFiles/r_forth.dir/depend
 

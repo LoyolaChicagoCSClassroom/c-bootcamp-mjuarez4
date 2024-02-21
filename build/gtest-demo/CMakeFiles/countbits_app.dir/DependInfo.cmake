@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits.c" "gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o" "gcc" "gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o.d"
-  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/countbits_app.c" "gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o" "gcc" "gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits.c" "gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o" "gcc" "gtest-demo/CMakeFiles/countbits_app.dir/countbits.c.o.d"
+  "/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/countbits_app.c" "gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o" "gcc" "gtest-demo/CMakeFiles/countbits_app.dir/countbits_app.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

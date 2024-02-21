@@ -3,6 +3,7 @@
 #define _TOKEN_H_
 
 #include <stdio.h>
+#include "int_stack.h"
 
 typedef enum token_type_t {
     NUMBER,
@@ -18,8 +19,9 @@ typedef struct token_t {
     char* text;
 } token_t;
 
-extern char* separate_token(char* text);
+extern void separate_token(int_stack_t *stk, char *text);
 extern token_type_t get_token_type(const char* token);
 extern token_t* intialize_token(token_type_t type, const char* text);
+extern void print_forth(int_stack_t *stk);
 
 #endif

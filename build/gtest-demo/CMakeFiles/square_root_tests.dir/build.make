@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include gtest-demo/CMakeFiles/square_root_tests.dir/depend.make
@@ -70,32 +70,32 @@ include gtest-demo/CMakeFiles/square_root_tests.dir/progress.make
 include gtest-demo/CMakeFiles/square_root_tests.dir/flags.make
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o: gtest-demo/CMakeFiles/square_root_tests.dir/flags.make
-gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root_tests.cc
+gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root_tests.cc
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o: gtest-demo/CMakeFiles/square_root_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o -MF CMakeFiles/square_root_tests.dir/square_root_tests.cc.o.d -o CMakeFiles/square_root_tests.dir/square_root_tests.cc.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root_tests.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.o -MF CMakeFiles/square_root_tests.dir/square_root_tests.cc.o.d -o CMakeFiles/square_root_tests.dir/square_root_tests.cc.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root_tests.cc
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/square_root_tests.dir/square_root_tests.cc.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root_tests.cc > CMakeFiles/square_root_tests.dir/square_root_tests.cc.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root_tests.cc > CMakeFiles/square_root_tests.dir/square_root_tests.cc.i
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/square_root_tests.dir/square_root_tests.cc.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root_tests.cc -o CMakeFiles/square_root_tests.dir/square_root_tests.cc.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root_tests.cc -o CMakeFiles/square_root_tests.dir/square_root_tests.cc.s
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o: gtest-demo/CMakeFiles/square_root_tests.dir/flags.make
-gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root.c
+gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root.c
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o: gtest-demo/CMakeFiles/square_root_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o -MF CMakeFiles/square_root_tests.dir/square_root.c.o.d -o CMakeFiles/square_root_tests.dir/square_root.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.o -MF CMakeFiles/square_root_tests.dir/square_root.c.o.d -o CMakeFiles/square_root_tests.dir/square_root.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root.c
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/square_root_tests.dir/square_root.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root.c > CMakeFiles/square_root_tests.dir/square_root.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root.c > CMakeFiles/square_root_tests.dir/square_root.c.i
 
 gtest-demo/CMakeFiles/square_root_tests.dir/square_root.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/square_root_tests.dir/square_root.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo/square_root.c -o CMakeFiles/square_root_tests.dir/square_root.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo/square_root.c -o CMakeFiles/square_root_tests.dir/square_root.c.s
 
 # Object files for target square_root_tests
 square_root_tests_OBJECTS = \
@@ -111,18 +111,18 @@ bin/square_root_tests: gtest-demo/CMakeFiles/square_root_tests.dir/build.make
 bin/square_root_tests: lib/libgtest_main.a
 bin/square_root_tests: lib/libgtest.a
 bin/square_root_tests: gtest-demo/CMakeFiles/square_root_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/square_root_tests"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/square_root_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/square_root_tests"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/square_root_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest-demo/CMakeFiles/square_root_tests.dir/build: bin/square_root_tests
 .PHONY : gtest-demo/CMakeFiles/square_root_tests.dir/build
 
 gtest-demo/CMakeFiles/square_root_tests.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo && $(CMAKE_COMMAND) -P CMakeFiles/square_root_tests.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo && $(CMAKE_COMMAND) -P CMakeFiles/square_root_tests.dir/cmake_clean.cmake
 .PHONY : gtest-demo/CMakeFiles/square_root_tests.dir/clean
 
 gtest-demo/CMakeFiles/square_root_tests.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/gtest-demo/CMakeFiles/square_root_tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/gtest-demo/CMakeFiles/square_root_tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : gtest-demo/CMakeFiles/square_root_tests.dir/depend
 

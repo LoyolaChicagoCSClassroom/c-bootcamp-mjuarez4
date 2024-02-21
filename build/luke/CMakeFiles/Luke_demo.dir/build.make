@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include luke/CMakeFiles/Luke_demo.dir/depend.make
@@ -70,32 +70,32 @@ include luke/CMakeFiles/Luke_demo.dir/progress.make
 include luke/CMakeFiles/Luke_demo.dir/flags.make
 
 luke/CMakeFiles/Luke_demo.dir/token_demo.c.o: luke/CMakeFiles/Luke_demo.dir/flags.make
-luke/CMakeFiles/Luke_demo.dir/token_demo.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token_demo.c
+luke/CMakeFiles/Luke_demo.dir/token_demo.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token_demo.c
 luke/CMakeFiles/Luke_demo.dir/token_demo.c.o: luke/CMakeFiles/Luke_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object luke/CMakeFiles/Luke_demo.dir/token_demo.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT luke/CMakeFiles/Luke_demo.dir/token_demo.c.o -MF CMakeFiles/Luke_demo.dir/token_demo.c.o.d -o CMakeFiles/Luke_demo.dir/token_demo.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token_demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object luke/CMakeFiles/Luke_demo.dir/token_demo.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT luke/CMakeFiles/Luke_demo.dir/token_demo.c.o -MF CMakeFiles/Luke_demo.dir/token_demo.c.o.d -o CMakeFiles/Luke_demo.dir/token_demo.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token_demo.c
 
 luke/CMakeFiles/Luke_demo.dir/token_demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Luke_demo.dir/token_demo.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token_demo.c > CMakeFiles/Luke_demo.dir/token_demo.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token_demo.c > CMakeFiles/Luke_demo.dir/token_demo.c.i
 
 luke/CMakeFiles/Luke_demo.dir/token_demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Luke_demo.dir/token_demo.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token_demo.c -o CMakeFiles/Luke_demo.dir/token_demo.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token_demo.c -o CMakeFiles/Luke_demo.dir/token_demo.c.s
 
 luke/CMakeFiles/Luke_demo.dir/token.c.o: luke/CMakeFiles/Luke_demo.dir/flags.make
-luke/CMakeFiles/Luke_demo.dir/token.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c
+luke/CMakeFiles/Luke_demo.dir/token.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c
 luke/CMakeFiles/Luke_demo.dir/token.c.o: luke/CMakeFiles/Luke_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object luke/CMakeFiles/Luke_demo.dir/token.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT luke/CMakeFiles/Luke_demo.dir/token.c.o -MF CMakeFiles/Luke_demo.dir/token.c.o.d -o CMakeFiles/Luke_demo.dir/token.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object luke/CMakeFiles/Luke_demo.dir/token.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT luke/CMakeFiles/Luke_demo.dir/token.c.o -MF CMakeFiles/Luke_demo.dir/token.c.o.d -o CMakeFiles/Luke_demo.dir/token.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c
 
 luke/CMakeFiles/Luke_demo.dir/token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Luke_demo.dir/token.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c > CMakeFiles/Luke_demo.dir/token.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c > CMakeFiles/Luke_demo.dir/token.c.i
 
 luke/CMakeFiles/Luke_demo.dir/token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Luke_demo.dir/token.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke/token.c -o CMakeFiles/Luke_demo.dir/token.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke/token.c -o CMakeFiles/Luke_demo.dir/token.c.s
 
 # Object files for target Luke_demo
 Luke_demo_OBJECTS = \
@@ -109,18 +109,18 @@ bin/Luke_demo: luke/CMakeFiles/Luke_demo.dir/token_demo.c.o
 bin/Luke_demo: luke/CMakeFiles/Luke_demo.dir/token.c.o
 bin/Luke_demo: luke/CMakeFiles/Luke_demo.dir/build.make
 bin/Luke_demo: luke/CMakeFiles/Luke_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/Luke_demo"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Luke_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/Luke_demo"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Luke_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 luke/CMakeFiles/Luke_demo.dir/build: bin/Luke_demo
 .PHONY : luke/CMakeFiles/Luke_demo.dir/build
 
 luke/CMakeFiles/Luke_demo.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke && $(CMAKE_COMMAND) -P CMakeFiles/Luke_demo.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke && $(CMAKE_COMMAND) -P CMakeFiles/Luke_demo.dir/cmake_clean.cmake
 .PHONY : luke/CMakeFiles/Luke_demo.dir/clean
 
 luke/CMakeFiles/Luke_demo.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/luke /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/luke/CMakeFiles/Luke_demo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/luke /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/Luke_demo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : luke/CMakeFiles/Luke_demo.dir/depend
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter
+CMAKE_SOURCE_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build
+CMAKE_BINARY_DIR = /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build
 
 # Include any dependencies generated for this target.
 include lwlog-demo/CMakeFiles/lwlog-demo.dir/depend.make
@@ -70,18 +70,18 @@ include lwlog-demo/CMakeFiles/lwlog-demo.dir/progress.make
 include lwlog-demo/CMakeFiles/lwlog-demo.dir/flags.make
 
 lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o: lwlog-demo/CMakeFiles/lwlog-demo.dir/flags.make
-lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo/lwlog-demo.c
+lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o: /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo/lwlog-demo.c
 lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o: lwlog-demo/CMakeFiles/lwlog-demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o -MF CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o.d -o CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo/lwlog-demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o -MF CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o.d -o CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o -c /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo/lwlog-demo.c
 
 lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lwlog-demo.dir/lwlog-demo.c.i"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo/lwlog-demo.c > CMakeFiles/lwlog-demo.dir/lwlog-demo.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo/lwlog-demo.c > CMakeFiles/lwlog-demo.dir/lwlog-demo.c.i
 
 lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lwlog-demo.dir/lwlog-demo.c.s"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo/lwlog-demo.c -o CMakeFiles/lwlog-demo.dir/lwlog-demo.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo/lwlog-demo.c -o CMakeFiles/lwlog-demo.dir/lwlog-demo.c.s
 
 # Object files for target lwlog-demo
 lwlog__demo_OBJECTS = \
@@ -94,18 +94,18 @@ bin/lwlog-demo: lwlog-demo/CMakeFiles/lwlog-demo.dir/lwlog-demo.c.o
 bin/lwlog-demo: lwlog-demo/CMakeFiles/lwlog-demo.dir/build.make
 bin/lwlog-demo: lwlog-lib/liblwlog-lib.a
 bin/lwlog-demo: lwlog-demo/CMakeFiles/lwlog-demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/lwlog-demo"
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwlog-demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/lwlog-demo"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwlog-demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lwlog-demo/CMakeFiles/lwlog-demo.dir/build: bin/lwlog-demo
 .PHONY : lwlog-demo/CMakeFiles/lwlog-demo.dir/build
 
 lwlog-demo/CMakeFiles/lwlog-demo.dir/clean:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-demo.dir/cmake_clean.cmake
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo && $(CMAKE_COMMAND) -P CMakeFiles/lwlog-demo.dir/cmake_clean.cmake
 .PHONY : lwlog-demo/CMakeFiles/lwlog-demo.dir/clean
 
 lwlog-demo/CMakeFiles/lwlog-demo.dir/depend:
-	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/lwlog-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/comp310-starter/build/lwlog-demo/CMakeFiles/lwlog-demo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/lwlog-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/lwlog-demo/CMakeFiles/lwlog-demo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lwlog-demo/CMakeFiles/lwlog-demo.dir/depend
 
