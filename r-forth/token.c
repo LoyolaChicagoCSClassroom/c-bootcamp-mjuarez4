@@ -14,7 +14,7 @@ token_t* intialize_token(token_type_t type, const char* text){
 }
 
 token_type_t get_token_type(const char* token){
-    if (*token == '+' || *token == '-' || *token == '*' || *token == '/') {
+    if (*token == '+' || *token == '-' || *token == '*' || *token == '/' || *token == '.') {
         return OPERATOR;
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
@@ -94,12 +94,14 @@ void separate_token(int_stack_t *stk, char *text) {
                     int_stack_mult(stk);
                 } else if (strcmp(token, "/mod")==0){
                     int_stack_divmod(stk);
+                } else if (strcmp(token, ".")==0){
+                    int_stack_pop(stk, &top_value);
                 } else {
                     int_stack_div(stk);
                 } 
             } else {
                 int_stack_pop(stk, &top_value);
-                printf("Stack underflow");
+                printf("Stack underflow\n");
                 
                 //exit(EXIT_FAILURE);
             } 
@@ -127,7 +129,7 @@ void separate_token(int_stack_t *stk, char *text) {
             } else if (strcmp(token, "mod")==0){
                 int_stack_mod(stk);
             } else {
-                printf("unknown");
+                printf("unknown\n");
             }
         }
     }
