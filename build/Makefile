@@ -473,6 +473,19 @@ r_forth/fast:
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/build
 .PHONY : r_forth/fast
 
+#=============================================================================
+# Target rules for targets named int_stack_tests
+
+# Build rule for target.
+int_stack_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 int_stack_tests
+.PHONY : int_stack_tests
+
+# fast build rule for target.
+int_stack_tests/fast:
+	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/build
+.PHONY : int_stack_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -504,6 +517,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... hello-lib"
 	@echo "... hello-world"
+	@echo "... int_stack_tests"
 	@echo "... lwlog-demo"
 	@echo "... lwlog-lib"
 	@echo "... r_forth"

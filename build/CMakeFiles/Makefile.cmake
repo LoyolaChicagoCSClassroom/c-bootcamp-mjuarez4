@@ -143,4 +143,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "WarmUp_10/CMakeFiles/WarmUp_10.dir/DependInfo.cmake"
   "luke/CMakeFiles/Luke_demo.dir/DependInfo.cmake"
   "r-forth/CMakeFiles/r_forth.dir/DependInfo.cmake"
+  "r-forth/CMakeFiles/int_stack_tests.dir/DependInfo.cmake"
   )

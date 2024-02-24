@@ -427,6 +427,7 @@ lwlog-lib/clean: lwlog-lib/CMakeFiles/lwlog-lib.dir/clean
 
 # Recursive "all" directory target.
 r-forth/all: r-forth/CMakeFiles/r_forth.dir/all
+r-forth/all: r-forth/CMakeFiles/int_stack_tests.dir/all
 .PHONY : r-forth/all
 
 # Recursive "preinstall" directory target.
@@ -435,6 +436,7 @@ r-forth/preinstall:
 
 # Recursive "clean" directory target.
 r-forth/clean: r-forth/CMakeFiles/r_forth.dir/clean
+r-forth/clean: r-forth/CMakeFiles/int_stack_tests.dir/clean
 .PHONY : r-forth/clean
 
 #=============================================================================
@@ -601,7 +603,7 @@ hello-lib/CMakeFiles/hello-lib.dir/clean:
 lwlog-lib/CMakeFiles/lwlog-lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f lwlog-lib/CMakeFiles/lwlog-lib.dir/build.make lwlog-lib/CMakeFiles/lwlog-lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f lwlog-lib/CMakeFiles/lwlog-lib.dir/build.make lwlog-lib/CMakeFiles/lwlog-lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=44,45 "Built target lwlog-lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=47,48 "Built target lwlog-lib"
 .PHONY : lwlog-lib/CMakeFiles/lwlog-lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -627,7 +629,7 @@ lwlog-lib/CMakeFiles/lwlog-lib.dir/clean:
 lwlog-demo/CMakeFiles/lwlog-demo.dir/all: lwlog-lib/CMakeFiles/lwlog-lib.dir/all
 	$(MAKE) $(MAKESILENT) -f lwlog-demo/CMakeFiles/lwlog-demo.dir/build.make lwlog-demo/CMakeFiles/lwlog-demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f lwlog-demo/CMakeFiles/lwlog-demo.dir/build.make lwlog-demo/CMakeFiles/lwlog-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=42,43 "Built target lwlog-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=45,46 "Built target lwlog-demo"
 .PHONY : lwlog-demo/CMakeFiles/lwlog-demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -653,7 +655,7 @@ lwlog-demo/CMakeFiles/lwlog-demo.dir/clean:
 gtest-demo/CMakeFiles/square_root_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_app.dir/build.make gtest-demo/CMakeFiles/square_root_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=50,51,52 "Built target square_root_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=53,54,55 "Built target square_root_app"
 .PHONY : gtest-demo/CMakeFiles/square_root_app.dir/all
 
 # Build rule for subdir invocation for target.
@@ -706,7 +708,7 @@ gtest-demo/CMakeFiles/square_root_tests.dir/all: _deps/googletest-build/googlete
 gtest-demo/CMakeFiles/square_root_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/square_root_tests.dir/build.make gtest-demo/CMakeFiles/square_root_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=53,54,55 "Built target square_root_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=56,57,58 "Built target square_root_tests"
 .PHONY : gtest-demo/CMakeFiles/square_root_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1045,7 +1047,7 @@ luke/CMakeFiles/Luke_demo.dir/clean:
 r-forth/CMakeFiles/r_forth.dir/all:
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/depend
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=46,47,48,49 "Built target r_forth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=49,50,51,52 "Built target r_forth"
 .PHONY : r-forth/CMakeFiles/r_forth.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1063,6 +1065,33 @@ r_forth: r-forth/CMakeFiles/r_forth.dir/rule
 r-forth/CMakeFiles/r_forth.dir/clean:
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/clean
 .PHONY : r-forth/CMakeFiles/r_forth.dir/clean
+
+#=============================================================================
+# Target rules for target r-forth/CMakeFiles/int_stack_tests.dir
+
+# All Build rule for target.
+r-forth/CMakeFiles/int_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+r-forth/CMakeFiles/int_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=42,43,44 "Built target int_stack_tests"
+.PHONY : r-forth/CMakeFiles/int_stack_tests.dir/all
+
+# Build rule for subdir invocation for target.
+r-forth/CMakeFiles/int_stack_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/CMakeFiles/int_stack_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
+.PHONY : r-forth/CMakeFiles/int_stack_tests.dir/rule
+
+# Convenience name for target.
+int_stack_tests: r-forth/CMakeFiles/int_stack_tests.dir/rule
+.PHONY : int_stack_tests
+
+# clean rule for target.
+r-forth/CMakeFiles/int_stack_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/clean
+.PHONY : r-forth/CMakeFiles/int_stack_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

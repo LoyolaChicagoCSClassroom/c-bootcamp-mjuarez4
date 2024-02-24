@@ -142,6 +142,7 @@
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/install/local.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/install/strip.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/r_forth.dir
+/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/int_stack_tests.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/edit_cache.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/rebuild_cache.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/r-forth/CMakeFiles/list_install_components.dir

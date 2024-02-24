@@ -35,4 +35,6 @@ target_link_libraries(countbits_tests
 	gtest_main
        	-lpthread 
 	-lm)
+
+
 include(GoogleTest)

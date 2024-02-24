@@ -175,12 +175,27 @@ r_forth/fast:
 	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/build
 .PHONY : r_forth/fast
 
+# Convenience name for target.
+r-forth/CMakeFiles/int_stack_tests.dir/rule:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r-forth/CMakeFiles/int_stack_tests.dir/rule
+.PHONY : r-forth/CMakeFiles/int_stack_tests.dir/rule
+
+# Convenience name for target.
+int_stack_tests: r-forth/CMakeFiles/int_stack_tests.dir/rule
+.PHONY : int_stack_tests
+
+# fast build rule for target.
+int_stack_tests/fast:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/build
+.PHONY : int_stack_tests/fast
+
 int_stack.o: int_stack.c.o
 .PHONY : int_stack.o
 
 # target to build an object file
 int_stack.c.o:
 	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.o
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack.c.o
 .PHONY : int_stack.c.o
 
 int_stack.i: int_stack.c.i
@@ -189,6 +204,7 @@ int_stack.i: int_stack.c.i
 # target to preprocess a source file
 int_stack.c.i:
 	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.i
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack.c.i
 .PHONY : int_stack.c.i
 
 int_stack.s: int_stack.c.s
@@ -197,7 +213,32 @@ int_stack.s: int_stack.c.s
 # target to generate assembly for a file
 int_stack.c.s:
 	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/r_forth.dir/build.make r-forth/CMakeFiles/r_forth.dir/int_stack.c.s
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack.c.s
 .PHONY : int_stack.c.s
+
+int_stack_tests.o: int_stack_tests.cc.o
+.PHONY : int_stack_tests.o
+
+# target to build an object file
+int_stack_tests.cc.o:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack_tests.cc.o
+.PHONY : int_stack_tests.cc.o
+
+int_stack_tests.i: int_stack_tests.cc.i
+.PHONY : int_stack_tests.i
+
+# target to preprocess a source file
+int_stack_tests.cc.i:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack_tests.cc.i
+.PHONY : int_stack_tests.cc.i
+
+int_stack_tests.s: int_stack_tests.cc.s
+.PHONY : int_stack_tests.s
+
+# target to generate assembly for a file
+int_stack_tests.cc.s:
+	cd /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build && $(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/int_stack_tests.cc.s
+.PHONY : int_stack_tests.cc.s
 
 r-forth.o: r-forth.c.o
 .PHONY : r-forth.o
@@ -259,10 +300,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... int_stack_tests"
 	@echo "... r_forth"
 	@echo "... int_stack.o"
 	@echo "... int_stack.i"
 	@echo "... int_stack.s"
+	@echo "... int_stack_tests.o"
+	@echo "... int_stack_tests.i"
+	@echo "... int_stack_tests.s"
 	@echo "... r-forth.o"
 	@echo "... r-forth.i"
 	@echo "... r-forth.s"
