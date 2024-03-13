@@ -448,17 +448,17 @@ WarmUp_10/fast:
 .PHONY : WarmUp_10/fast
 
 #=============================================================================
-# Target rules for targets named Luke_demo
+# Target rules for targets named old
 
 # Build rule for target.
-Luke_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Luke_demo
-.PHONY : Luke_demo
+old: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 old
+.PHONY : old
 
 # fast build rule for target.
-Luke_demo/fast:
-	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/Luke_demo.dir/build.make luke/CMakeFiles/Luke_demo.dir/build
-.PHONY : Luke_demo/fast
+old/fast:
+	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/old.dir/build.make luke/CMakeFiles/old.dir/build
+.PHONY : old/fast
 
 #=============================================================================
 # Target rules for targets named r_forth
@@ -498,7 +498,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Luke_demo"
 	@echo "... WarmUp_1"
 	@echo "... WarmUp_10"
 	@echo "... WarmUp_2"
@@ -520,6 +519,7 @@ help:
 	@echo "... int_stack_tests"
 	@echo "... lwlog-demo"
 	@echo "... lwlog-lib"
+	@echo "... old"
 	@echo "... r_forth"
 	@echo "... square_root_app"
 	@echo "... square_root_tests"

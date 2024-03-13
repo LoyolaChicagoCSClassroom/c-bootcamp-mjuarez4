@@ -381,7 +381,7 @@ hello-lib/clean: hello-lib/CMakeFiles/hello-lib.dir/clean
 # Directory level rules for directory luke
 
 # Recursive "all" directory target.
-luke/all: luke/CMakeFiles/Luke_demo.dir/all
+luke/all: luke/CMakeFiles/old.dir/all
 .PHONY : luke/all
 
 # Recursive "preinstall" directory target.
@@ -389,7 +389,7 @@ luke/preinstall:
 .PHONY : luke/preinstall
 
 # Recursive "clean" directory target.
-luke/clean: luke/CMakeFiles/Luke_demo.dir/clean
+luke/clean: luke/CMakeFiles/old.dir/clean
 .PHONY : luke/clean
 
 #=============================================================================
@@ -446,7 +446,7 @@ r-forth/clean: r-forth/CMakeFiles/int_stack_tests.dir/clean
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=30,31 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=27,28 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -473,7 +473,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=32,33 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=29,30 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -499,7 +499,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=34,35 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=31,32 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -525,7 +525,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=36,37 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=33,34 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -551,7 +551,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean:
 hello/CMakeFiles/hello-world.dir/all: hello-lib/CMakeFiles/hello-lib.dir/all
 	$(MAKE) $(MAKESILENT) -f hello/CMakeFiles/hello-world.dir/build.make hello/CMakeFiles/hello-world.dir/depend
 	$(MAKE) $(MAKESILENT) -f hello/CMakeFiles/hello-world.dir/build.make hello/CMakeFiles/hello-world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=40,41 "Built target hello-world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=37,38 "Built target hello-world"
 .PHONY : hello/CMakeFiles/hello-world.dir/all
 
 # Build rule for subdir invocation for target.
@@ -577,7 +577,7 @@ hello/CMakeFiles/hello-world.dir/clean:
 hello-lib/CMakeFiles/hello-lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f hello-lib/CMakeFiles/hello-lib.dir/build.make hello-lib/CMakeFiles/hello-lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=38,39 "Built target hello-lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=35,36 "Built target hello-lib"
 .PHONY : hello-lib/CMakeFiles/hello-lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -603,7 +603,7 @@ hello-lib/CMakeFiles/hello-lib.dir/clean:
 lwlog-lib/CMakeFiles/lwlog-lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f lwlog-lib/CMakeFiles/lwlog-lib.dir/build.make lwlog-lib/CMakeFiles/lwlog-lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f lwlog-lib/CMakeFiles/lwlog-lib.dir/build.make lwlog-lib/CMakeFiles/lwlog-lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=47,48 "Built target lwlog-lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=44,45 "Built target lwlog-lib"
 .PHONY : lwlog-lib/CMakeFiles/lwlog-lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -629,7 +629,7 @@ lwlog-lib/CMakeFiles/lwlog-lib.dir/clean:
 lwlog-demo/CMakeFiles/lwlog-demo.dir/all: lwlog-lib/CMakeFiles/lwlog-lib.dir/all
 	$(MAKE) $(MAKESILENT) -f lwlog-demo/CMakeFiles/lwlog-demo.dir/build.make lwlog-demo/CMakeFiles/lwlog-demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f lwlog-demo/CMakeFiles/lwlog-demo.dir/build.make lwlog-demo/CMakeFiles/lwlog-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=45,46 "Built target lwlog-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=42,43 "Built target lwlog-demo"
 .PHONY : lwlog-demo/CMakeFiles/lwlog-demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -681,7 +681,7 @@ gtest-demo/CMakeFiles/square_root_app.dir/clean:
 gtest-demo/CMakeFiles/countbits_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_app.dir/build.make gtest-demo/CMakeFiles/countbits_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=24,25,26 "Built target countbits_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=21,22,23 "Built target countbits_app"
 .PHONY : gtest-demo/CMakeFiles/countbits_app.dir/all
 
 # Build rule for subdir invocation for target.
@@ -735,7 +735,7 @@ gtest-demo/CMakeFiles/countbits_tests.dir/all: _deps/googletest-build/googletest
 gtest-demo/CMakeFiles/countbits_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest-demo/CMakeFiles/countbits_tests.dir/build.make gtest-demo/CMakeFiles/countbits_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=27,28,29 "Built target countbits_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=24,25,26 "Built target countbits_tests"
 .PHONY : gtest-demo/CMakeFiles/countbits_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,7 +761,7 @@ gtest-demo/CMakeFiles/countbits_tests.dir/clean:
 WarmUp_1/CMakeFiles/WarmUp_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_1/CMakeFiles/WarmUp_1.dir/build.make WarmUp_1/CMakeFiles/WarmUp_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_1/CMakeFiles/WarmUp_1.dir/build.make WarmUp_1/CMakeFiles/WarmUp_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=4,5 "Built target WarmUp_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=1,2 "Built target WarmUp_1"
 .PHONY : WarmUp_1/CMakeFiles/WarmUp_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -787,7 +787,7 @@ WarmUp_1/CMakeFiles/WarmUp_1.dir/clean:
 WarmUp_2/CMakeFiles/WarmUp_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_2/CMakeFiles/WarmUp_2.dir/build.make WarmUp_2/CMakeFiles/WarmUp_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_2/CMakeFiles/WarmUp_2.dir/build.make WarmUp_2/CMakeFiles/WarmUp_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=8,9 "Built target WarmUp_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=5,6 "Built target WarmUp_2"
 .PHONY : WarmUp_2/CMakeFiles/WarmUp_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -813,7 +813,7 @@ WarmUp_2/CMakeFiles/WarmUp_2.dir/clean:
 WarmUp_3/CMakeFiles/WarmUp_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_3/CMakeFiles/WarmUp_3.dir/build.make WarmUp_3/CMakeFiles/WarmUp_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_3/CMakeFiles/WarmUp_3.dir/build.make WarmUp_3/CMakeFiles/WarmUp_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=10,11 "Built target WarmUp_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=7,8 "Built target WarmUp_3"
 .PHONY : WarmUp_3/CMakeFiles/WarmUp_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -839,7 +839,7 @@ WarmUp_3/CMakeFiles/WarmUp_3.dir/clean:
 WarmUp_4/CMakeFiles/WarmUp_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_4/CMakeFiles/WarmUp_4.dir/build.make WarmUp_4/CMakeFiles/WarmUp_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_4/CMakeFiles/WarmUp_4.dir/build.make WarmUp_4/CMakeFiles/WarmUp_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=12,13 "Built target WarmUp_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=9,10 "Built target WarmUp_4"
 .PHONY : WarmUp_4/CMakeFiles/WarmUp_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -865,7 +865,7 @@ WarmUp_4/CMakeFiles/WarmUp_4.dir/clean:
 WarmUp_5/CMakeFiles/WarmUp_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_5/CMakeFiles/WarmUp_5.dir/build.make WarmUp_5/CMakeFiles/WarmUp_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_5/CMakeFiles/WarmUp_5.dir/build.make WarmUp_5/CMakeFiles/WarmUp_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=14,15 "Built target WarmUp_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=11,12 "Built target WarmUp_5"
 .PHONY : WarmUp_5/CMakeFiles/WarmUp_5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -891,7 +891,7 @@ WarmUp_5/CMakeFiles/WarmUp_5.dir/clean:
 WarmUp_6/CMakeFiles/WarmUp_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_6/CMakeFiles/WarmUp_6.dir/build.make WarmUp_6/CMakeFiles/WarmUp_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_6/CMakeFiles/WarmUp_6.dir/build.make WarmUp_6/CMakeFiles/WarmUp_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=16,17 "Built target WarmUp_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=13,14 "Built target WarmUp_6"
 .PHONY : WarmUp_6/CMakeFiles/WarmUp_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -917,7 +917,7 @@ WarmUp_6/CMakeFiles/WarmUp_6.dir/clean:
 WarmUp_7/CMakeFiles/WarmUp_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_7/CMakeFiles/WarmUp_7.dir/build.make WarmUp_7/CMakeFiles/WarmUp_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=18,19 "Built target WarmUp_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=15,16 "Built target WarmUp_7"
 .PHONY : WarmUp_7/CMakeFiles/WarmUp_7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -943,7 +943,7 @@ WarmUp_7/CMakeFiles/WarmUp_7.dir/clean:
 WarmUp_8/CMakeFiles/WarmUp_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_8/CMakeFiles/WarmUp_8.dir/build.make WarmUp_8/CMakeFiles/WarmUp_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_8/CMakeFiles/WarmUp_8.dir/build.make WarmUp_8/CMakeFiles/WarmUp_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=20,21 "Built target WarmUp_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=17,18 "Built target WarmUp_8"
 .PHONY : WarmUp_8/CMakeFiles/WarmUp_8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -969,7 +969,7 @@ WarmUp_8/CMakeFiles/WarmUp_8.dir/clean:
 WarmUp_9/CMakeFiles/WarmUp_9.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_9/CMakeFiles/WarmUp_9.dir/build.make WarmUp_9/CMakeFiles/WarmUp_9.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_9/CMakeFiles/WarmUp_9.dir/build.make WarmUp_9/CMakeFiles/WarmUp_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=22,23 "Built target WarmUp_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=19,20 "Built target WarmUp_9"
 .PHONY : WarmUp_9/CMakeFiles/WarmUp_9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -995,7 +995,7 @@ WarmUp_9/CMakeFiles/WarmUp_9.dir/clean:
 WarmUp_10/CMakeFiles/WarmUp_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp_10/CMakeFiles/WarmUp_10.dir/build.make WarmUp_10/CMakeFiles/WarmUp_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp_10/CMakeFiles/WarmUp_10.dir/build.make WarmUp_10/CMakeFiles/WarmUp_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=6,7 "Built target WarmUp_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=3,4 "Built target WarmUp_10"
 .PHONY : WarmUp_10/CMakeFiles/WarmUp_10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1015,30 +1015,30 @@ WarmUp_10/CMakeFiles/WarmUp_10.dir/clean:
 .PHONY : WarmUp_10/CMakeFiles/WarmUp_10.dir/clean
 
 #=============================================================================
-# Target rules for target luke/CMakeFiles/Luke_demo.dir
+# Target rules for target luke/CMakeFiles/old.dir
 
 # All Build rule for target.
-luke/CMakeFiles/Luke_demo.dir/all:
-	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/Luke_demo.dir/build.make luke/CMakeFiles/Luke_demo.dir/depend
-	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/Luke_demo.dir/build.make luke/CMakeFiles/Luke_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=1,2,3 "Built target Luke_demo"
-.PHONY : luke/CMakeFiles/Luke_demo.dir/all
+luke/CMakeFiles/old.dir/all:
+	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/old.dir/build.make luke/CMakeFiles/old.dir/depend
+	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/old.dir/build.make luke/CMakeFiles/old.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=46,47,48 "Built target old"
+.PHONY : luke/CMakeFiles/old.dir/all
 
 # Build rule for subdir invocation for target.
-luke/CMakeFiles/Luke_demo.dir/rule: cmake_check_build_system
+luke/CMakeFiles/old.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 luke/CMakeFiles/Luke_demo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 luke/CMakeFiles/old.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles 0
-.PHONY : luke/CMakeFiles/Luke_demo.dir/rule
+.PHONY : luke/CMakeFiles/old.dir/rule
 
 # Convenience name for target.
-Luke_demo: luke/CMakeFiles/Luke_demo.dir/rule
-.PHONY : Luke_demo
+old: luke/CMakeFiles/old.dir/rule
+.PHONY : old
 
 # clean rule for target.
-luke/CMakeFiles/Luke_demo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/Luke_demo.dir/build.make luke/CMakeFiles/Luke_demo.dir/clean
-.PHONY : luke/CMakeFiles/Luke_demo.dir/clean
+luke/CMakeFiles/old.dir/clean:
+	$(MAKE) $(MAKESILENT) -f luke/CMakeFiles/old.dir/build.make luke/CMakeFiles/old.dir/clean
+.PHONY : luke/CMakeFiles/old.dir/clean
 
 #=============================================================================
 # Target rules for target r-forth/CMakeFiles/r_forth.dir
@@ -1074,7 +1074,7 @@ r-forth/CMakeFiles/int_stack_tests.dir/all: _deps/googletest-build/googletest/CM
 r-forth/CMakeFiles/int_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f r-forth/CMakeFiles/int_stack_tests.dir/build.make r-forth/CMakeFiles/int_stack_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=42,43,44 "Built target int_stack_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/CMakeFiles --progress-num=39,40,41 "Built target int_stack_tests"
 .PHONY : r-forth/CMakeFiles/int_stack_tests.dir/all
 
 # Build rule for subdir invocation for target.

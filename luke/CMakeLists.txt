@@ -1,5 +1,5 @@
 add_executable(
-	Luke_demo
+	old
 	token_demo.c
 	token.c
 	token.h)

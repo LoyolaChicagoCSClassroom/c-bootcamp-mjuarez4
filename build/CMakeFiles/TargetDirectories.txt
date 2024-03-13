@@ -134,7 +134,7 @@
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_10/CMakeFiles/install.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_10/CMakeFiles/install/local.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/WarmUp_10/CMakeFiles/install/strip.dir
-/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/Luke_demo.dir
+/Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/old.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/edit_cache.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/rebuild_cache.dir
 /Users/maddiejuarez/Documents/comp310/c-bootcamp-mjuarez4/build/luke/CMakeFiles/list_install_components.dir
