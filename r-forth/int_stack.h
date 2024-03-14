@@ -42,5 +42,6 @@ extern int int_stack_less(int_stack_t *stk);
 extern int int_stack_greater(int_stack_t *stk);
 extern int int_stack_and(int_stack_t *stk);
 extern int int_stack_or(int_stack_t *stk);
+extern int int_stack_invert(int_stack_t *stk);
 #endif // INT_STACK_H
 

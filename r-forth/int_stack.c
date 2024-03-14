@@ -274,6 +274,19 @@ int int_stack_or(int_stack_t *stk) {
    return int_stack_push(stk, result);
 }
 
+int int_stack_invert(int_stack_t *stk) {
+   int firstValue;
+   int_stack_pop(stk, &firstValue);
+
+   int result = 0;
+   if (firstValue == -1){
+       return int_stack_push(stk, result);
+   } else {
+       result = -1;
+   }
+   return int_stack_push(stk, result);
+   
+}
 
 void int_stack_print(int_stack_t *stk, FILE *file) {
     int_entry_t *entry;

@@ -18,7 +18,7 @@ token_type_t get_token_type(const char* token){
         return OPERATOR;
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
-    } else if (*token == '=' || *token == '<' || *token == '>' || strcmp(token, "and") == 0 || strcmp(token, "or")==0){
+    } else if (*token == '=' || *token == '<' || *token == '>' || strcmp(token, "and") == 0 || strcmp(token, "or")==0 || strcmp(token, "invert")==0){
         return BOOLEAN;
     }else if (isdigit((unsigned char)*token)){
         const char* p = token + 1; 
@@ -155,8 +155,9 @@ void separate_token(int_stack_t *stk, char *text) {
                 
                 int_stack_and(stk);
             } else if (strcmp(token, "or")==0){
-                print_forth(stk);
                 int_stack_or(stk);
+            } else if (strcmp(token, "invert")==0){
+                int_stack_invert(stk);
             }
         } 
     }

@@ -8,7 +8,7 @@ Tasks:
     -- lt: COMPLETE 3/14
     -- AND: COMPLETE 3/14
     -- OR: COMPLETE 3/14
-    -- INVERT: NOT COMPLETE
+    -- INVERT: COMPLETE 3/14
 -- Add support for conditionals (e.g., if-else) and loops: NOT COMPLETE
 -- Add support for functions: NOT COMPLETE
 -- Add support fofr the REPL of FORTH: NOT COMPLETE
