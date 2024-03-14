@@ -18,7 +18,7 @@ token_type_t get_token_type(const char* token){
         return OPERATOR;
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
-    } else if (*token == '='){
+    } else if (*token == '=' || *token == '<' || *token == '>'){
         return BOOLEAN;
     }else if (isdigit((unsigned char)*token)){
         const char* p = token + 1; 
@@ -140,9 +140,12 @@ void separate_token(int_stack_t *stk, char *text) {
             char *next_token = strtok_r(rest, space, &rest); 
             if (next_token && strcmp(token, "=") == 0 && strcmp(next_token, ".") == 0) {
                 printf("%d\n", int_stack_equal(stk));
+            } else if (next_token && strcmp(token, "<") == 0 && strcmp(next_token, ".") == 0) {
+                printf("%d\n", int_stack_less(stk));
+            } else if (next_token && strcmp(token, ">") == 0 && strcmp(next_token, ".") ==0){
+                printf("%d\n", int_stack_greater(stk));
             }
-
-        }
+        } 
     }
 }
 

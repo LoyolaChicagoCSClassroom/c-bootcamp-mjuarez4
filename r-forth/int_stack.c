@@ -207,6 +207,30 @@ int int_stack_equal(int_stack_t *stk) {
     return -1;
 }
 
+int int_stack_less(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    if (top_value < next_to_top_value){
+        return 0;
+    }
+    return -1;
+}
+
+int int_stack_greater(int_stack_t *stk) {
+    if (stk->size < 2)
+        return 0;
+    int top_value, next_to_top_value;
+    int_stack_pop(stk, &top_value);
+    int_stack_pop(stk, &next_to_top_value);
+    if (top_value > next_to_top_value){
+        return 0;
+    }
+    return -1;
+}
+
 void int_stack_print(int_stack_t *stk, FILE *file) {
     int_entry_t *entry;
     int pos = 0;

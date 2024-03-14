@@ -4,8 +4,8 @@ Tasks:
 -- Add support for variables and constants: NOT COMPLETE
 -- Add support for conditions (boolean expressions): NOT COMPLETE
     -- equal: COMPLETE
-    -- gt: NOT COMPLETE
-    -- lt: NOT COMPLETE
+    -- gt: COMPLETE
+    -- lt: COMPLETE
     -- AND: NOT COMPLETE
     -- OR: NOT COMPLETE
     -- INVERT: NOT COMPLETE
