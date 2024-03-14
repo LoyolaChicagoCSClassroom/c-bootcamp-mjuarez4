@@ -18,7 +18,9 @@ token_type_t get_token_type(const char* token){
         return OPERATOR;
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
-    } else if (isdigit((unsigned char)*token)){
+    } else if (*token == '='){
+        return BOOLEAN;
+    }else if (isdigit((unsigned char)*token)){
         const char* p = token + 1; 
         while (*p) {
             if (!isdigit((unsigned char)*p)) {
@@ -43,6 +45,8 @@ const char* token_type_to_string(token_type_t type) {
             return "SYMBOL";
         case WORD:
             return "WORD";
+        case BOOLEAN:
+            return "BOOLEAN";
         default:
             return "ILLEGAL";
     }
@@ -80,6 +84,7 @@ void separate_token(int_stack_t *stk, char *text) {
 
     while ((token = strtok_r(rest, space, &rest))) {
         token_type_t type = get_token_type(token);
+        
         //printf("Token: %s, Type: %s\n", token, token_type_to_string(type));
         if (type == NUMBER) {
             int_stack_push(stk, atoi(token));
@@ -131,6 +136,12 @@ void separate_token(int_stack_t *stk, char *text) {
             } else {
                 printf("unknown\n");
             }
+        } else if (type == BOOLEAN){
+            char *next_token = strtok_r(rest, space, &rest); 
+            if (next_token && strcmp(token, "=") == 0 && strcmp(next_token, ".") == 0) {
+                printf("%d\n", int_stack_equal(stk));
+            }
+
         }
     }
 }
