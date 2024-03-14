@@ -27,6 +27,8 @@ int int_stack_push(int_stack_t *stk, int value) {
     return 0; // fail
 }
 
+
+
 int int_stack_pop(int_stack_t *stk, int *top_value) {
     int_entry_t *entry = SLIST_FIRST(&stk->head);
     if (entry) {
@@ -230,6 +232,48 @@ int int_stack_greater(int_stack_t *stk) {
     }
     return -1;
 }
+
+int int_stack_and(int_stack_t *stk) {
+    if (stk->size < 2) {
+        //return 0;
+    }
+    int result = 1; 
+    int firstValue;
+    int_stack_pop(stk, &firstValue);
+
+    
+    while (stk->size > 0) {
+        int currentValue;
+        int_stack_pop(stk, &currentValue);
+        if (currentValue != firstValue) {
+            result = 0; 
+            break; 
+        }
+    }
+    
+    return int_stack_push(stk, result);
+    
+}
+
+int int_stack_or(int_stack_t *stk) {
+   if (stk->size < 2) {
+        return 0;
+   }
+   int result = 0; 
+   int firstValue;
+   int_stack_pop(stk, &firstValue);
+
+   while (stk->size > 0) {
+        int currentValue;
+        int_stack_pop(stk, &currentValue);
+        if (currentValue == -1 || firstValue == -1) {
+            result = -1; 
+            break; 
+        }
+   }
+   return int_stack_push(stk, result);
+}
+
 
 void int_stack_print(int_stack_t *stk, FILE *file) {
     int_entry_t *entry;

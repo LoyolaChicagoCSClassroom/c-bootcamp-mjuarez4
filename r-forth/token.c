@@ -18,7 +18,7 @@ token_type_t get_token_type(const char* token){
         return OPERATOR;
     } else if (*token == ';' || *token == ':'){
         return SYMBOL;
-    } else if (*token == '=' || *token == '<' || *token == '>'){
+    } else if (*token == '=' || *token == '<' || *token == '>' || strcmp(token, "and") == 0 || strcmp(token, "or")==0){
         return BOOLEAN;
     }else if (isdigit((unsigned char)*token)){
         const char* p = token + 1; 
@@ -74,7 +74,6 @@ void print_forth(int_stack_t *stk){
     }
     printf("<- Top\n");
 }
-
 
 
 void separate_token(int_stack_t *stk, char *text) {
@@ -137,16 +136,34 @@ void separate_token(int_stack_t *stk, char *text) {
                 printf("unknown\n");
             }
         } else if (type == BOOLEAN){
-            char *next_token = strtok_r(rest, space, &rest); 
-            if (next_token && strcmp(token, "=") == 0 && strcmp(next_token, ".") == 0) {
-                printf("%d\n", int_stack_equal(stk));
-            } else if (next_token && strcmp(token, "<") == 0 && strcmp(next_token, ".") == 0) {
-                printf("%d\n", int_stack_less(stk));
-            } else if (next_token && strcmp(token, ">") == 0 && strcmp(next_token, ".") ==0){
-                printf("%d\n", int_stack_greater(stk));
+            
+            //char *next_token = strtok_r(rest, space, &rest);
+            //char *third_token = strtok_r(rest, space, &rest);
+            if (strcmp(token, "=")==0) {
+                int_stack_push(stk, int_stack_equal(stk));
+                //printf("%d\n", int_stack_equal(stk));
+            } else if (strcmp(token, "<") == 0) {
+                //printf("%d\n", int_stack_less(stk));
+                int_stack_push(stk, int_stack_less(stk));
+            } else if (strcmp(token, ">") == 0){
+                int_stack_push(stk, int_stack_greater(stk));
+            }
+
+            
+            if (strcmp(token, "and") == 0){
+                //printf("%d\n", int_stack_and(stk));
+                
+                int_stack_and(stk);
+            } else if (strcmp(token, "or")==0){
+                print_forth(stk);
+                int_stack_or(stk);
             }
         } 
     }
+
+    //if (next_token && strcmp(token, "invert")==0 && strcmp(next_token, ".")==0){
+               // printf("%d\n", int_stack_greater(stk));
+           // }
 }
 
 
