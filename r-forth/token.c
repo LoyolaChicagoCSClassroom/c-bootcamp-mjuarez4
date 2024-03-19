@@ -76,7 +76,10 @@ void print_forth(int_stack_t *stk){
 }
 
 
-void separate_token(int_stack_t *stk, char *text) {
+
+
+void separate_token(int_stack_t *stk, char *text, char* stringList[]) {
+      
     const char *space = " ";
     char *token;
     char *rest = text;
@@ -132,8 +135,24 @@ void separate_token(int_stack_t *stk, char *text) {
                 int_stack_pop(stk, &top_value);
             } else if (strcmp(token, "mod")==0){
                 int_stack_mod(stk);
+            } else if (strcmp(token, "variable")==0){
+                token = strtok_r(NULL, space, &rest); 
+                if (token != NULL) { 
+                    for (int i = 0; i < 100; i++) {
+                        if (stringList[i] == NULL) {
+                            stringList[i] = strdup(token);
+                            break; 
+                        }
+                    }
+                }
             } else {
-                printf("unknown\n");
+                for (int i = 0; i < 100; i++){
+                    if (stringList[i] != NULL && strcmp(token, stringList[i]) == 0) {
+                        uintptr_t addr = (uintptr_t)stringList[i];
+                        int_stack_push(stk, addr); 
+                        break;
+                    }
+                }
             }
         } else if (type == BOOLEAN){
             

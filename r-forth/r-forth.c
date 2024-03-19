@@ -12,7 +12,12 @@ int main() {
     size_t len = 0;
     ssize_t read;
 
-    int_stack_init(&myStack, capacity); 
+    int_stack_init(&myStack, capacity);
+
+    char* stringList[100];
+    for (int i = 0; i < 100; i++) {
+        stringList[i] = NULL;
+    }
 
     printf("Type 'bye' to exit\n");
 
@@ -26,7 +31,7 @@ int main() {
             break;
         }
 
-        separate_token(&myStack, line); 
+        separate_token(&myStack, line, stringList); 
         print_forth(&myStack);
     }
 
