@@ -6,6 +6,7 @@
 
 int_stack_t myStack;
 const int capacity = 30;
+const int var_capacity = 100;
 
 int main() {
     char *line = NULL;
@@ -14,9 +15,11 @@ int main() {
 
     int_stack_init(&myStack, capacity);
 
-    char* stringList[100];
-    for (int i = 0; i < 100; i++) {
+    char* stringList[var_capacity];
+    int intList[var_capacity];
+    for (int i = 0; i < var_capacity; i++) {
         stringList[i] = NULL;
+        intList[i] = 0;
     }
 
     printf("Type 'bye' to exit\n");
@@ -31,7 +34,7 @@ int main() {
             break;
         }
 
-        separate_token(&myStack, line, stringList); 
+        separate_token(&myStack, line, stringList, intList); 
         print_forth(&myStack);
     }
 

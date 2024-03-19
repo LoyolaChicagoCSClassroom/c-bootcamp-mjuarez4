@@ -20,7 +20,10 @@ token_type_t get_token_type(const char* token){
         return SYMBOL;
     } else if (*token == '=' || *token == '<' || *token == '>' || strcmp(token, "and") == 0 || strcmp(token, "or")==0 || strcmp(token, "invert")==0){
         return BOOLEAN;
-    }else if (isdigit((unsigned char)*token)){
+    }else if (isdigit((unsigned char)*token) || *token=='@' || *token == '!'){
+        if (strcmp(token, "@")==0){
+            return WORD;
+        }
         const char* p = token + 1; 
         while (*p) {
             if (!isdigit((unsigned char)*p)) {
@@ -58,7 +61,7 @@ void print_forth(int_stack_t *stk){
     int i = 0;
     int pos = 0;
     if (stk->size == 0) {
-        printf("empty stack\n");
+        //printf("empty stack\n");
     }
 
     SLIST_FOREACH(entry, &stk->head, entries) {
@@ -77,8 +80,7 @@ void print_forth(int_stack_t *stk){
 
 
 
-
-void separate_token(int_stack_t *stk, char *text, char* stringList[]) {
+void separate_token(int_stack_t *stk, char *text, char* stringList[], int *intList) {
       
     const char *space = " ";
     char *token;
@@ -146,13 +148,55 @@ void separate_token(int_stack_t *stk, char *text, char* stringList[]) {
                     }
                 }
             } else {
+                char* text;
                 for (int i = 0; i < 100; i++){
                     if (stringList[i] != NULL && strcmp(token, stringList[i]) == 0) {
                         uintptr_t addr = (uintptr_t)stringList[i];
-                        int_stack_push(stk, addr); 
-                        break;
+                        text = token;
+                        //printf("%s\n", text);
+                        int_stack_push(stk, addr);  
+                        
                     }
                 }
+                
+                token = strtok_r(NULL, space, &rest);
+                if (token == NULL){
+                    break;
+                }
+                if (strcmp(token, "@")==0){
+                   for (int i = 0; i < 100; i++){
+                       //printf("%d: %s\n", i, intList[i]);
+                       if (stringList[i] != NULL && strcmp(text, stringList[i]) == 0) {
+                           int s1, s2;
+                           int_stack_pop(stk, &s1);
+                           s2 = intList[i];
+                           //printf("%d\n", s3);
+                           int_stack_push(stk, s2);
+                       }
+                   }
+                } else if (strcmp(token, "!")==0){
+                    //print_forth(stk);
+                    if (stk->size >= 2) {
+                        int top_val, next_val;
+                        int_stack_pop(stk, &top_val);
+                        int_stack_pop(stk, &next_val);
+                        //print_forth(stk);
+                        for (int i = 0; i < 100; i++){
+                            if (intList[i] == 0 && stringList[i] != NULL && strcmp(text, stringList[i]) == 0) {
+                                intList[i] = next_val;
+                                break;
+                            }
+                            //printf("Index %d: %d\n", i, intList[i]);
+                            //printf("Index %d: %s\n", i, stringList[i]);
+                            
+                        
+                        }
+                    }
+                    
+                }
+
+                
+                
             }
         } else if (type == BOOLEAN){
             
@@ -178,7 +222,22 @@ void separate_token(int_stack_t *stk, char *text, char* stringList[]) {
             } else if (strcmp(token, "invert")==0){
                 int_stack_invert(stk);
             }
-        } 
+        } else if (type == SYMBOL){
+            int top_value;
+            if (strcmp(token, "!")==0){
+                int next_val;
+                int_stack_pop(stk, &top_value);
+                int_stack_pop(stk, &next_val);
+                
+                for (int i = 0; i < 100; i++){
+                    if (stringList[i] != NULL && strcmp(token, stringList[i]) == 0) {
+                        intList[i] = next_val;
+                        
+                    }
+                }
+            }
+
+        }
     }
 
     //if (next_token && strcmp(token, "invert")==0 && strcmp(next_token, ".")==0){

@@ -20,7 +20,7 @@ typedef struct token_t {
     char* text;
 } token_t;
 
-extern void separate_token(int_stack_t *stk, char *text, char* stringList[]);
+extern void separate_token(int_stack_t *stk, char *text, char* stringList[], int *intList);
 extern token_type_t get_token_type(const char* token);
 extern token_t* intialize_token(token_type_t type, const char* text);
 extern void print_forth(int_stack_t *stk);

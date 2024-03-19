@@ -4,8 +4,8 @@ Tasks:
 -- Add support for variables and constants: NOT COMPLETE
     -- variable <variable name> COMPLETE 3/18
     -- <variable name> -> COMPLETE 3/18
-    -- support ! to store value NOT COMPLETE
-    -- <variable name> @ -> push value onto stack NOT COMPLETE
+    -- support ! to store value COMPLETE 3/19
+    -- <variable name> @ -> push value onto stack COMPLETE
 -- Add support for conditions (boolean expressions): COMPLETE
     -- equal: COMPLETE 3/14
     -- gt: COMPLETE 3/14
