@@ -237,7 +237,7 @@ int int_stack_and(int_stack_t *stk) {
     if (stk->size < 2) {
         //return 0;
     }
-    int result = 1; 
+    int result = -1; 
     int firstValue;
     int_stack_pop(stk, &firstValue);
 
