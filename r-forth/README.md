@@ -19,5 +19,7 @@ Tasks:
 -- Add support for the REPL of FORTH: NOT COMPLETE
 
 --Working User inferface: COMPLETED 3/12
---Unit testing for every feature: NOT COMPLETE 
+--Unit testing for every feature:
+    --UNIT TESTING FOR AND, OR, INVERT, GREATER THAN, LESS THAN, EQUAL -> COMPLETE
+    -- Note: could not add unit testing for variable because it does not deal with stack operations 
 --README.md: COMPLETE 3/12
