@@ -1,7 +1,7 @@
 Updated 3/12/2024
 
 Tasks:
--- Add support for variables and constants: NOT COMPLETE
+-- Add support for variables and constants: COMPLETE
     -- variable <variable name> COMPLETE 3/18
     -- <variable name> -> COMPLETE 3/18
     -- support ! to store value COMPLETE 3/19
